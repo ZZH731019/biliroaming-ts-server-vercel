@@ -222,18 +222,18 @@ export const db_NOTION_log = process.env.NOTION_db_log || "";
 
 //======================黑白名单设置============================
 //黑名单模式 1-开 0-关
-export const blacklist_enabled: io = 1;
+export const blacklist_enabled: io = 0;
 //白名单模式 1-开 0-关
-export const whitelist_enabled: io = 0;
+export const whitelist_enabled: io = 1;
 //验证vip与视频要求 1-开 0-关
-export const check_vip_enabled: io = 1;
+export const check_vip_enabled: io = 0;
 //禁忌设置-白名单调用vip access_key 1-开 0-关
 export const whitelist_vip_enabled: io = 0;
 //============================================================
 
 //===================获取公共黑白名单============================
 //功能开关 1-开 0-关
-export const public_blacklist_enabled: io = 1;
+export const public_blacklist_enabled: io = 0;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
 export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 //============================================================
